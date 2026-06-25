@@ -3,6 +3,11 @@
 
 # @seneca/web-adapter-connect
 
+
+[![npm version](https://img.shields.io/npm/v/@seneca/web-adapter-connect.svg)](https://npmjs.com/package/@seneca/web-adapter-connect)
+[![build](https://github.com/senecajs/seneca-web-adapter-connect/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-web-adapter-connect/actions/workflows/build.yml)
+[![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-web-adapter-connect/badge.svg)](https://snyk.io/test/github/senecajs/seneca-web-adapter-connect)
+
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
 
