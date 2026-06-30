@@ -19,7 +19,7 @@ A peer dependency has been specified for `seneca-web`. `connect` also needs to b
 npm install --save connect
 npm install --save seneca-web
 npm install --save seneca-web-adapter-connect
-```
+```js
 
 ## Quick Example
 
@@ -36,7 +36,7 @@ seneca.ready(() => {
   const app = seneca.export('web/context')()
   app.listen(3000)
 })
-```
+```js
 
 ## More Examples
 
@@ -66,7 +66,7 @@ The [Senecajs org][] encourages open participation. If you feel you can help in 
 
 ```sh
 npm run test
-```
+```js
 
 ## Background
 
