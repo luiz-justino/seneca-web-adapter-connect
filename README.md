@@ -15,15 +15,14 @@
 
 A peer dependency has been specified for `seneca-web`. `connect` also needs to be present for this to work at all.
 
-```sh
+```
 npm install --save connect
 npm install --save seneca-web
 npm install --save seneca-web-adapter-connect
-```js
-
+```
 ## Quick Example
 
-```js
+```
 const Seneca = require('seneca')
 const SenecaWeb = require('seneca-web')
 const Connect = require('connect')
@@ -36,8 +35,7 @@ seneca.ready(() => {
   const app = seneca.export('web/context')()
   app.listen(3000)
 })
-```js
-
+```
 ## More Examples
 
 See [test/](test/) for usage examples.
@@ -64,10 +62,9 @@ The [Senecajs org][] encourages open participation. If you feel you can help in 
 
 ### Running tests
 
-```sh
+```
 npm run test
-```js
-
+```
 ## Background
 
 Part of the [seneca-web](https://github.com/senecajs/seneca-web) adapter family.
